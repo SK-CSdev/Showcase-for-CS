@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.portfolioshowcase.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_mad_libs"
+        android:name="com.example.portfolioshowcase.ui.madlibs.MadLibsFragment"
+        android:label="@string/menu_mad_libs"
+        tools:layout="@layout/fragment_mad_libs" />
+
+    <fragment
+        android:id="@+id/nav_sci_fi_name"
+        android:name="com.example.portfolioshowcase.ui.scifiname.SciFiNameFragment"
+        android:label="@string/menu_sci_fi_name"
+        tools:layout="@layout/fragment_sci_fi_name" />
+
+    <fragment
+        android:id="@+id/nav_guess_the_number"
+        android:name="com.example.portfolioshowcase.ui.guessnumber.GuessNumberFragment"
+        android:label="@string/menu_guess_the_number"
+        tools:layout="@layout/fragment_guess_number" />
+</navigation>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Portfolio Showcase</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Your Name</string>
+    <string name="nav_header_subtitle">your.email@example.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_credits">Credits</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_mad_libs">Mad Libs</string>
+    <string name="menu_sci_fi_name">Sci-Fi Name Generator</string>
+    <string name="menu_guess_the_number">Guess the Number</string>
+</resources>

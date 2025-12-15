@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".CreditsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/credits_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credits"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App by: [Your Name]"
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/game_instructions_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to Play 'Guess the Number'"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/game_instructions_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- The system generates a secret number between 1 and 100.\n- You start with 10 strikes.\n- Enter your guess and get feedback ('Too high!', 'Too low!').\n- If you guess correctly, you get 50 points plus 5 points for each remaining strike.\n- If you run out of strikes, it's game over!"/>
+
+        <TextView
+            android:id="@+id/sources_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sources &amp; URLs"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/sources_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Placeholder Image 1: [URL]\n- Placeholder Image 2: [URL]"
+            android:autoLink="web"/>
+
+    </LinearLayout>
+</ScrollView>
